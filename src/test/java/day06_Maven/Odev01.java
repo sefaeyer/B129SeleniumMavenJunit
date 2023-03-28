@@ -49,6 +49,7 @@ public class Odev01 {
 //        sonuYazisi2=sonuYazisi2.replaceAll("\\w", "");
 //        System.out.println("sonuYazisi2 = " + sonuYazisi2);
 
+        //sonuc sayisinin 10 milyon’dan fazla oldugunu test edin
         String soncc11 = sonucarr[1];
         System.out.println("soncc11 = " + soncc11);
         soncc11=soncc11.replace(".","");
