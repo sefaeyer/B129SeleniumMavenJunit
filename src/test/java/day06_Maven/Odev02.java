@@ -43,12 +43,14 @@ public class Odev02 {
         sepet.click();
 
         //Sectiginiz urunun basarili olarak sepete eklendigini control edin
-        if(sepet.equals(sepet)){
+        String expected ="Sauce Labs Backpack";
+        String actuel = driver.findElement(By.xpath("//*[@class='inventory_item_name']")).getText();
+        if(actuel.equals(expected)){
             System.out.println("urun eklendi");
-        }
+        }else System.out.println("urun yanlis");
 
         //Sayfayi kapatin
-
+        driver.close();
 
 
     }

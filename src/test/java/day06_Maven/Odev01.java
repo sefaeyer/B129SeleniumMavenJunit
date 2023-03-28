@@ -40,14 +40,8 @@ public class Odev01 {
         String [] sonucarr = sonucYazisi.getText().split(" ");
 
         //System.out.println("sonuc Sayisi = " + sonucarr[1]);
-
         //sonuc sayisinin 10 milyon’dan fazla oldugunu test edin
 
-//        System.out.println("sonucYazisi = " + sonucYazisi.getText());
-//      Yaklaşık 132.000.000 sonuç bulundu (0,39 saniye)
-//        String sonuYazisi2 = sonucYazisi.getText();
-//        sonuYazisi2=sonuYazisi2.replaceAll("\\w", "");
-//        System.out.println("sonuYazisi2 = " + sonuYazisi2);
 
         //sonuc sayisinin 10 milyon’dan fazla oldugunu test edin
         String soncc11 = sonucarr[1];
