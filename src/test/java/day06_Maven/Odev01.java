@@ -38,16 +38,26 @@ public class Odev01 {
         //Bulunan sonuc sayisini yazdirin
         WebElement sonucYazisi = driver.findElement(By.cssSelector("div[id='result-stats']"));
         String [] sonucarr = sonucYazisi.getText().split(" ");
-        System.out.println("sonuc Sayisi = " + sonucarr[1]);
+
+        //System.out.println("sonuc Sayisi = " + sonucarr[1]);
 
         //sonuc sayisinin 10 milyon’dan fazla oldugunu test edin
+
+//        System.out.println("sonucYazisi = " + sonucYazisi.getText());
+//      Yaklaşık 132.000.000 sonuç bulundu (0,39 saniye)
+//        String sonuYazisi2 = sonucYazisi.getText();
+//        sonuYazisi2=sonuYazisi2.replaceAll("\\w", "");
+//        System.out.println("sonuYazisi2 = " + sonuYazisi2);
+
         String soncc11 = sonucarr[1];
         System.out.println("soncc11 = " + soncc11);
         soncc11=soncc11.replace(".","");
         System.out.println("soncc11 = " + soncc11);
         int sonucInt = Integer.parseInt(soncc11);
 
-        if(sonucInt > 10.000){
+
+
+        if(sonucInt > 10000000){
             System.out.println("test passed");
         }else System.out.println("test failed");
 
