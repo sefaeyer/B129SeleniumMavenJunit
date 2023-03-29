@@ -12,7 +12,7 @@ import java.time.Duration;
 import java.util.Arrays;
 import java.util.List;
 
-public class Odev01 {
+public class Odev01_Nutella {
     public static void main(String[] args) {
 
         WebDriverManager.chromedriver().setup();

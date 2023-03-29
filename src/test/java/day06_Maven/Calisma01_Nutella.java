@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.time.Duration;
 
-public class Calisma01 {
+public class Calisma01_Nutella {
     public static void main(String[] args) {
 
         WebDriverManager.chromedriver().setup();

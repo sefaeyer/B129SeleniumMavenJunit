@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.time.Duration;
 
-public class Odev02 {
+public class Odev02_saucedemo {
     public static void main(String[] args) {
 
         WebDriverManager.chromedriver().setup();
