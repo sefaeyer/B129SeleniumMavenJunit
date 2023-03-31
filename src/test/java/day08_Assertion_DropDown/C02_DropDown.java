@@ -51,7 +51,7 @@ public class C02_DropDown {
         WebElement yil = driver.findElement(By.xpath("//*[@id='year']"));
         Select select = new Select(yil);
         select.selectByIndex(5); // index 0 yazinca 6.yi alir.
-        //yil.sendKeys("2018");
+        //yil.sendKeys("2018");  --> bu sekilde de mumkun...
 
         WebElement ay = driver.findElement(By.xpath("//*[@id='month']"));
         Select select1 = new Select(ay);
