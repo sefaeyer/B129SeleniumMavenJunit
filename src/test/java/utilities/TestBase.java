@@ -14,7 +14,7 @@ public abstract class TestBase {
 
     ////TestBase class'indan obje olusturmanin onune gecilmesi icin abstract yapilabilir
     ////Orn: TestBase base=new TestBase();
-    ////Bu class'a extend ettigimiz test classlarinda ulasabiliriz.
+    ////Bu class'a extend ettigimiz test classlarindan ulasabiliriz.
     protected static WebDriver driver;
     @Before
     public void setUp() throws Exception {
@@ -27,7 +27,7 @@ public abstract class TestBase {
     @After
     public void tearDown() throws Exception {
         Thread.sleep(3000);
-        //driver.close();
+        //driver.quit();
     }
     //HARD WAIT METHODU
     public static void bekle(int saniye) {

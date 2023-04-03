@@ -60,7 +60,7 @@ public class C01_DropDown {
         System.out.println("****************************");
         tumEyaletler.forEach(t-> System.out.println(t.getText()));
 
-        //b sayfadaki tum dd
+        //b. sayfadaki tum dd leredki tum secenekleri (option) konsolda yazdir
         List<WebElement> eyaletlerList = driver.findElements(By.tagName("option"));
         eyaletlerList.forEach(t-> System.out.println(t.getText()));
         System.out.println("*********");

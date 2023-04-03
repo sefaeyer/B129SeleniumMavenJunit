@@ -29,7 +29,7 @@ public class C03_Alerts extends TestBase {
         Thread.sleep(4000);
         String actualText = driver.findElement(By.xpath("//*[@id='result']")).getText();
         String expectedText = "You successfully clicked an alert";
-        Assert.assertEquals(expectedText,actualText);
+        Assert.assertEquals(actualText,expectedText);
         //    Bir metod olusturun: dismissAlert
         //    2. butona tıklayın, uyarıdaki Cancel butonuna tıklayın ve result mesajının
         //    “successfuly” icermedigini test edin.
