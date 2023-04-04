@@ -9,6 +9,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
 
 public abstract class TestBase {
 
@@ -77,5 +79,14 @@ public abstract class TestBase {
     public static void ddmValue(WebElement ddm,String secenek){
         Select select = new Select(ddm);
         select.selectByValue(secenek);
+    }
+
+    //SwitchTo: sayfalar arasi gecis methodu
+    //Index sifir 0'dan baslar
+    //Girilen indexteki windowHandle degerini alarak o sayfaya gecis yapar
+    public static void switchToWindow(int sayfaIndexi){
+        List<String> windowHandleList = new ArrayList<>(driver.getWindowHandles());
+        driver.switchTo().window(windowHandleList.get(sayfaIndexi));
+
     }
 }
