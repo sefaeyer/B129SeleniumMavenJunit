@@ -11,18 +11,6 @@ import java.util.List;
 import java.util.Set;
 
 public class C03_WindowHandles extends TestBase {
-/*
-    https://the-internet.herokuapp.com/windows adresine gidin.
-    İlk sayfanın ID'sini(Window Handle değerini) alın.
-    Sayfadaki textin “Opening a new window” olduğunu doğrulayın.
-    Sayfa başlığının(title) “The Internet” olduğunu doğrulayın.
-    "Click Here" butonuna tıklayın.
-    Açılan pencereye geçin.
-    Açılan yeni pencerenin sayfa başlığının(title) “New Window” olduğunu doğrulayın.
-    Bir önceki pencereye dönüp sayfa başlığının “The Internet” olduğunu  doğrulayın.
-    2. pencereye tekrar geçin.
-    1. pencereye tekrar dönün.
-     */
 
     @Test
     public void windowHandles() {
