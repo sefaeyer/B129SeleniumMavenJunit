@@ -33,6 +33,6 @@ public class C01_Actions01 extends TestBase {
         Assert.assertEquals("You selected a context menu",alertText);
         bekle(2);
         //Tamam diyerek alert’i kapatın
-        alertAccept();
+        alertAccept();//TestBase de gelen method
     }
 }
