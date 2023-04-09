@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class C03_GoogleArama {
+public class C03_Task03_GoogleArama {
 
     //-BeforeClass methodu ile driver ı olusturun ve Maximize edin, 15 sn bekletin
     //-Before methodunda http://www.google.com adresine gidin

@@ -8,7 +8,7 @@ import utilities.TestBase;
 
 import java.util.List;
 
-public class C02_100DefaTikla extends TestBase {
+public class C02_Task02_100DefaTikla extends TestBase {
     //- http://the-internet.herokuapp.com/add_remove_elements/ adresine gidiniz
     //- Add Element butonuna 100 defa basınız
     //- 100 defa basıldığını test ediniz

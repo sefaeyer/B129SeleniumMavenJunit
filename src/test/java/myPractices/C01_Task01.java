@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import java.time.Duration;
 import java.util.List;
 
-public class C01 {
+public class C01_Task01 {
     public static void main(String[] args) {
 
         WebDriverManager.chromedriver().setup();
