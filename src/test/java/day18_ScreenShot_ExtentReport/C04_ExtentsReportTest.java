@@ -29,16 +29,14 @@ public class C04_ExtentsReportTest extends TestBase {
     public void extentReportTest() {
 
         extentReports = new ExtentReports();
-
         String tarih = new SimpleDateFormat("_hh_mm_ss_ddMMyyyy").format(new Date());
         String dosyaYolu = "TestOutput/reports/extentReport_"+tarih+".html";
-
         extentHtmlReporter = new ExtentHtmlReporter(dosyaYolu);
         extentReports.attachReporter(extentHtmlReporter);
 
         //Raporda gözükmesini istediğimiz bilgiler için
         extentReports.setSystemInfo("Browser","Chrome");
-        extentReports.setSystemInfo("Tester","Erol");
+        extentReports.setSystemInfo("Tester","Sefa");
         extentHtmlReporter.config().setDocumentTitle("Extent Report");
         extentHtmlReporter.config().setReportName("Smoke Test Raporu");
         extentTest=extentReports.createTest("ExtentTest","Test Raporu");
