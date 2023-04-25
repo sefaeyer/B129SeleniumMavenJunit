@@ -172,7 +172,16 @@ public abstract class TestBase {
         System.out.println(satirSutun.getText());
     }
 
+    //Click Methodu
+    public void click(WebElement element){
+        try {
+            element.click();
+        } catch (Exception e) {
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("arguments[0].click();",element);
+        }
 
+    }
 
 
 
